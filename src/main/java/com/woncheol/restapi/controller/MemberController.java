@@ -25,11 +25,11 @@ public class MemberController {
 	 {
 		 ArrayList<Member> memberArray = new ArrayList();
 		
-		 memberArray.add(new Member("1", "Wickies", 20, "제주", new Date()));
-		 memberArray.add(new Member("2", "마동석", 40, "전주", new Date()));
-		 memberArray.add(new Member("3", "조승우", 22, "무주", new Date()));
-		 memberArray.add(new Member("4", "박보영", 20, "제주", new Date()));
-		 memberArray.add(new Member("5", "엄복동", 20, "제주", new Date()));
+		 memberArray.add(new Member("kimth1357", "김태훈 ", 38, "서울 창동 ", new Date()));
+		 memberArray.add(new Member("yk1004", "최양헌 ", 36, "서울 신길 ", new Date()));
+		 memberArray.add(new Member("tarzan111", "배성식 ", 36, "경기 하남 미사 ", new Date()));
+		 memberArray.add(new Member("dk1117", "이덕용 ", 36, "경기 수원 호매실 ", new Date()));
+		 memberArray.add(new Member("lnk0517", "이남규 ", 35, "서울 서강 ", new Date()));
 
 		 return memberArray;
 		 
