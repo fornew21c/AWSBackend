@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.woncheol.restapi.model.Member;
 import java.util.Date;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 @RequestMapping("/member")
 @RestController
