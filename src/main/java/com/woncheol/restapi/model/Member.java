@@ -13,15 +13,16 @@ public class Member {
 	private int age;
 	private String address;
 	private Date createdAt;
+    private String companyName;
 
-
-	public Member(String userId, String name, int age, String address, Date createAt) {
+	public Member(String userId, String name, int age, String address, Date createAt, String companyName) {
 		// TODO Auto-generated constructor stub
 		this.userId = userId;
 		this.name = name;
 		this.age = age;
 		this.address = address;
 		this.createdAt = createAt;
+		this.companyName = companyName;
 	}
 	
 	public String getUserId() {
