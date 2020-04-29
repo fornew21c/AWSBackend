@@ -10,7 +10,7 @@ import java.util.ArrayList;
 @RequestMapping("/member")
 @RestController
 public class MemberController {
-	@GetMapping("test")
+	@RequestMapping("test")
 	public Member memberTest() {
 		
 		Member m1 = new Member("fornew21c", "woncheol", 30, "gimpo", new Date());
@@ -20,8 +20,8 @@ public class MemberController {
 		return m1;
 	}
 
-	 @GetMapping("/test2")
-	 public ArrayList<Member> memberTest2()
+	@RequestMapping("/test2")
+	public ArrayList<Member> memberTest2()
 	 {
 		 ArrayList<Member> memberArray = new ArrayList();
 		
