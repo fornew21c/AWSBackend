@@ -3,16 +3,15 @@
 <mapper namespace="com.woncheol.restapi.dao.MemberDao">
 
     <select id="getMemberList" resultType="Member">
-  		SELECT m.userId userId,
+	SELECT m.userId userId,
          		m.name name,
          		m.age age,
-          		c.companyName companyName,
-                m.address address
+         		m.address address,
+         		m.createdAt createdAt,
+          		c.companyName companyName
           FROM company c, member m
           where c.companyNo = m.companyNo
-         ORDER BY m.age DESC
-         ;
-         
+         ORDER BY m.age DESC;
     </select>
 
 </mapper>

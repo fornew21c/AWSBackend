@@ -42,20 +42,6 @@ public class MemberController {
 		 return memberArray;
 	 }
 	
-//	@RequestMapping("/memberList")
-//	public ArrayList<Member> memberList()
-//	 {
-//		 ArrayList<Member> memberArray = new ArrayList();
-//		
-//		 memberArray.add(new Member("kimth1357", "김태훈 ", 38, "서울 창동 ", new Date(), "x"));
-//		 memberArray.add(new Member("yk1004", "최양헌 ", 36, "서울 신길 ", new Date(), "x"));
-//		 memberArray.add(new Member("tarzan111", "배성식 ", 36, "경기 하남 미사 ", new Date(), "x"));
-//		 memberArray.add(new Member("dk1117", "이덕용 ", 36, "경기 수원 호매실 ", new Date(), "x"));
-//		 memberArray.add(new Member("lnk0517", "이남규 ", 35, "서울 서강 ", new Date(), "x"));
-//
-//		 return memberArray;
-//	 }
-	
 	   @RequestMapping(value="/memberList", method=RequestMethod.GET)
 	    public ResponseEntity<?> getMemberList() {
 	        HashMap<String, Object> result = new HashMap<>();
