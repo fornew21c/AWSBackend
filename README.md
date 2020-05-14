@@ -1,7 +1,7 @@
 # AWSBackend 
 
-AWS
+AWS ec2
 mysql
-spring boot
+spring-boot
 restAPI
 genkins

@@ -9,7 +9,7 @@
          		m.address address,
          		m.createdAt createdAt,
           		c.companyName companyName
-          FROM company c, member m
+          FROM COMPANY c, MEMBER m
           where c.companyNo = m.companyNo
          ORDER BY m.age DESC;
     </select>
