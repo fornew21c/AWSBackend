@@ -6,7 +6,7 @@
         SELECT companyNo
              , companyName
              , address
-          FROM company
+          FROM COMPANY
          ORDER BY companyNo ASC
          
     </select>
