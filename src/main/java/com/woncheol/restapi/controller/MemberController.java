@@ -31,7 +31,7 @@ public class MemberController {
 	@RequestMapping("/test2")
 	public ArrayList<Member> memberTest2()
 	 {
-		 ArrayList<Member> memberArray = new ArrayList();
+		 ArrayList<Member> memberArray = new ArrayList <Member>();
 		
 		 memberArray.add(new Member("kimth1357", "김태훈 ", 38, "서울 창동 ", new Date(), "x"));
 		 memberArray.add(new Member("yk1004", "최양헌 ", 36, "서울 신길 ", new Date(), "x"));

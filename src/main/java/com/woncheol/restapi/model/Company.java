@@ -1,6 +1,5 @@
 package com.woncheol.restapi.model;
 
-import java.util.List;
 
 public class Company {
 	int companyNo;
