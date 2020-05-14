@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.woncheol.restapi.dao.MemberDao">
+
+    <select id="getMemberList" resultType="Member">
+	SELECT m.userId userId,
+         		m.name name,
+         		m.age age,
+         		m.address address,
+         		m.createdAt createdAt,
+          		c.companyName companyName
+          FROM company c, member m
+          where c.companyNo = m.companyNo
+         ORDER BY m.age DESC;
+    </select>
+
+</mapper>
